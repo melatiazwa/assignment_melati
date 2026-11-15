@@ -1,0 +1,129 @@
+state,date,sex_mar,abs,rate,sex_pop,age,ethnicity,population,income_mean,income_median
+Johor,2019-01-01,female,26574,26.4,both,overall,overall,3761.2,8013,6427.0
+Johor,2019-01-01,male,26872,25.1,both,overall,overall,3761.2,8013,6427.0
+Johor,2020-01-01,female,22917,22.7,both,overall,overall,4009.7,7264,5690.0
+Johor,2020-01-01,male,22865,21.5,both,overall,overall,4009.7,7264,5690.0
+Johor,2022-01-01,female,26539,25.8,both,overall,overall,4028.3,8517,6879.0
+Johor,2022-01-01,male,26166,21.1,both,overall,overall,4028.3,8517,6879.0
+Johor,2024-01-01,female,24757,24.2,both,overall,overall,4184.4,9484,7712.0
+Johor,2024-01-01,male,24737,19.3,both,overall,overall,4184.4,9484,7712.0
+Kedah,2019-01-01,female,16420,27.7,both,overall,overall,2173.7,5522,4325.0
+Kedah,2019-01-01,male,14384,23.8,both,overall,overall,2173.7,5522,4325.0
+Kedah,2020-01-01,female,16809,28.4,both,overall,overall,2131.4,5005,3829.0
+Kedah,2020-01-01,male,14661,24.4,both,overall,overall,2131.4,5005,3829.0
+Kedah,2022-01-01,female,18584,31.7,both,overall,overall,2163.1,5550,4402.0
+Kedah,2022-01-01,male,15768,25.4,both,overall,overall,2163.1,5550,4402.0
+Kedah,2024-01-01,female,15327,26.2,both,overall,overall,2217.1,5793,4895.0
+Kedah,2024-01-01,male,13439,21.4,both,overall,overall,2217.1,5793,4895.0
+Kelantan,2019-01-01,female,16765,30.8,both,overall,overall,1883.8,4874,3563.0
+Kelantan,2019-01-01,male,14530,25.4,both,overall,overall,1883.8,4874,3563.0
+Kelantan,2020-01-01,female,16134,29.5,both,overall,overall,1792.5,4411,3010.0
+Kelantan,2020-01-01,male,13984,24.3,both,overall,overall,1792.5,4411,3010.0
+Kelantan,2022-01-01,female,18297,32.3,both,overall,overall,1830.6,4885,3614.0
+Kelantan,2022-01-01,male,20558,35.4,both,overall,overall,1830.6,4885,3614.0
+Kelantan,2024-01-01,female,14686,25.6,both,overall,overall,1887.9,5265,4083.0
+Kelantan,2024-01-01,male,16518,26.8,both,overall,overall,1887.9,5265,4083.0
+Melaka,2019-01-01,female,6867,27.7,both,overall,overall,928.4,7741,6054.0
+Melaka,2019-01-01,male,6826,27.5,both,overall,overall,928.4,7741,6054.0
+Melaka,2020-01-01,female,6340,25.6,both,overall,overall,998.4,7186,5447.0
+Melaka,2020-01-01,male,6340,25.8,both,overall,overall,998.4,7186,5447.0
+Melaka,2022-01-01,female,6920,26.1,both,overall,overall,1008.6,8057,6210.0
+Melaka,2022-01-01,male,6912,23.7,both,overall,overall,1008.6,8057,6210.0
+Melaka,2024-01-01,female,6256,21.2,both,overall,overall,1046.7,8686,6891.0
+Melaka,2024-01-01,male,6167,19.7,both,overall,overall,1046.7,8686,6891.0
+Negeri Sembilan,2019-01-01,female,8506,29.0,both,overall,overall,1126.2,6707,5005.0
+Negeri Sembilan,2019-01-01,male,8689,27.7,both,overall,overall,1126.2,6707,5005.0
+Negeri Sembilan,2020-01-01,female,7994,27.3,both,overall,overall,1200.0,6184,4478.0
+Negeri Sembilan,2020-01-01,male,8246,26.6,both,overall,overall,1200.0,6184,4478.0
+Negeri Sembilan,2022-01-01,female,8843,26.3,both,overall,overall,1207.9,6788,5226.0
+Negeri Sembilan,2022-01-01,male,8915,25.4,both,overall,overall,1207.9,6788,5226.0
+Negeri Sembilan,2024-01-01,female,7839,24.5,both,overall,overall,1239.5,7305,5591.0
+Negeri Sembilan,2024-01-01,male,7850,22.0,both,overall,overall,1239.5,7305,5591.0
+Pahang,2019-01-01,female,11817,28.3,both,overall,overall,1671.4,5667,4440.0
+Pahang,2019-01-01,male,11867,25.0,both,overall,overall,1671.4,5667,4440.0
+Pahang,2020-01-01,female,10552,25.3,both,overall,overall,1591.3,5144,4033.0
+Pahang,2020-01-01,male,10702,22.8,both,overall,overall,1591.3,5144,4033.0
+Pahang,2022-01-01,female,10916,25.8,both,overall,overall,1614.3,5777,4753.0
+Pahang,2022-01-01,male,10369,21.3,both,overall,overall,1614.3,5777,4753.0
+Pahang,2024-01-01,female,9140,21.4,both,overall,overall,1667.7,6066,4975.0
+Pahang,2024-01-01,male,8655,17.3,both,overall,overall,1667.7,6066,4975.0
+Perak,2019-01-01,female,18775,29.0,both,overall,overall,2508.8,5645,4273.0
+Perak,2019-01-01,male,17629,27.3,both,overall,overall,2508.8,5645,4273.0
+Perak,2020-01-01,female,17442,27.1,both,overall,overall,2496.0,5081,3759.0
+Perak,2020-01-01,male,16227,25.5,both,overall,overall,2496.0,5081,3759.0
+Perak,2022-01-01,female,18059,26.6,both,overall,overall,2514.4,5779,4494.0
+Perak,2022-01-01,male,16407,23.0,both,overall,overall,2514.4,5779,4494.0
+Perak,2024-01-01,female,15965,22.7,both,overall,overall,2569.4,6173,4687.0
+Perak,2024-01-01,male,14524,20.2,both,overall,overall,2569.4,6173,4687.0
+Perlis,2019-01-01,female,2132,31.3,both,overall,overall,254.0,5476,4594.0
+Perlis,2019-01-01,male,1829,27.4,both,overall,overall,254.0,5476,4594.0
+Perlis,2020-01-01,female,2180,32.1,both,overall,overall,284.9,4971,4043.0
+Perlis,2020-01-01,male,1975,29.9,both,overall,overall,284.9,4971,4043.0
+Perlis,2022-01-01,female,2398,29.6,both,overall,overall,289.8,5664,4713.0
+Perlis,2022-01-01,male,1965,23.6,both,overall,overall,289.8,5664,4713.0
+Perlis,2024-01-01,female,2594,32.3,both,overall,overall,296.8,5996,4950.0
+Perlis,2024-01-01,male,2246,27.1,both,overall,overall,296.8,5996,4950.0
+Pulau Pinang,2019-01-01,female,9637,21.2,both,overall,overall,1768.8,7774,6169.0
+Pulau Pinang,2019-01-01,male,9411,20.9,both,overall,overall,1768.8,7774,6169.0
+Pulau Pinang,2020-01-01,female,8740,19.4,both,overall,overall,1740.4,6850,5474.0
+Pulau Pinang,2020-01-01,male,8830,19.8,both,overall,overall,1740.4,6850,5474.0
+Pulau Pinang,2022-01-01,female,10002,22.7,both,overall,overall,1740.9,8267,6502.0
+Pulau Pinang,2022-01-01,male,10067,21.6,both,overall,overall,1740.9,8267,6502.0
+Pulau Pinang,2024-01-01,female,8917,20.0,both,overall,overall,1800.5,9152,7386.0
+Pulau Pinang,2024-01-01,male,8949,18.3,both,overall,overall,1800.5,9152,7386.0
+Sabah,2019-01-01,female,16515,16.6,both,overall,overall,3904.4,5745,4235.0
+Sabah,2019-01-01,male,15447,13.9,both,overall,overall,3904.4,5745,4235.0
+Sabah,2020-01-01,female,12459,12.7,both,overall,overall,3418.8,5215,3773.0
+Sabah,2020-01-01,male,11849,10.8,both,overall,overall,3418.8,5215,3773.0
+Sabah,2022-01-01,female,17239,18.8,both,overall,overall,3414.9,6171,4577.0
+Sabah,2022-01-01,male,15855,15.0,both,overall,overall,3414.9,6171,4577.0
+Sabah,2024-01-01,female,14357,12.4,both,overall,overall,3742.0,6498,4890.0
+Sabah,2024-01-01,male,13315,11.5,both,overall,overall,3742.0,6498,4890.0
+Sarawak,2019-01-01,female,14577,21.6,both,overall,overall,2806.0,5959,4544.0
+Sarawak,2019-01-01,male,14858,20.7,both,overall,overall,2806.0,5959,4544.0
+Sarawak,2020-01-01,female,12886,19.2,both,overall,overall,2453.7,5087,3831.0
+Sarawak,2020-01-01,male,13123,18.5,both,overall,overall,2453.7,5087,3831.0
+Sarawak,2022-01-01,female,16382,25.4,both,overall,overall,2473.5,6457,4978.0
+Sarawak,2022-01-01,male,16707,23.6,both,overall,overall,2473.5,6457,4978.0
+Sarawak,2024-01-01,female,16340,23.1,both,overall,overall,2517.5,6947,5504.0
+Sarawak,2024-01-01,male,16443,23.2,both,overall,overall,2517.5,6947,5504.0
+Selangor,2019-01-01,female,34430,22.1,both,overall,overall,6506.1,10827,8210.0
+Selangor,2019-01-01,male,38775,23.2,both,overall,overall,6506.1,10827,8210.0
+Selangor,2020-01-01,female,29780,19.1,both,overall,overall,6994.4,9668,7300.0
+Selangor,2020-01-01,male,33808,20.4,both,overall,overall,6994.4,9668,7300.0
+Selangor,2022-01-01,female,38591,23.2,both,overall,overall,7050.3,12233,9983.0
+Selangor,2022-01-01,male,42825,22.0,both,overall,overall,7050.3,12233,9983.0
+Selangor,2024-01-01,female,35293,20.7,both,overall,overall,7362.7,13296,10726.0
+Selangor,2024-01-01,male,38309,18.9,both,overall,overall,7362.7,13296,10726.0
+Terengganu,2019-01-01,female,10535,28.7,both,overall,overall,1244.5,6815,5545.0
+Terengganu,2019-01-01,male,10113,26.1,both,overall,overall,1244.5,6815,5545.0
+Terengganu,2020-01-01,female,10631,28.7,both,overall,overall,1149.4,6051,4790.0
+Terengganu,2020-01-01,male,10302,26.5,both,overall,overall,1149.4,6051,4790.0
+Terengganu,2022-01-01,female,11254,32.7,both,overall,overall,1186.6,7248,5878.0
+Terengganu,2022-01-01,male,9671,26.2,both,overall,overall,1186.6,7248,5878.0
+Terengganu,2024-01-01,female,9084,25.1,both,overall,overall,1231.5,7627,6627.0
+Terengganu,2024-01-01,male,7731,20.3,both,overall,overall,1231.5,7627,6627.0
+W.P. Kuala Lumpur,2019-01-01,female,9245,21.3,both,overall,overall,1782.5,13257,10549.0
+W.P. Kuala Lumpur,2019-01-01,male,11358,25.3,both,overall,overall,1782.5,13257,10549.0
+W.P. Kuala Lumpur,2020-01-01,female,8845,20.7,both,overall,overall,1982.1,11728,9093.0
+W.P. Kuala Lumpur,2020-01-01,male,10645,24.1,both,overall,overall,1982.1,11728,9093.0
+W.P. Kuala Lumpur,2022-01-01,female,9709,21.5,both,overall,overall,1961.2,13325,10234.0
+W.P. Kuala Lumpur,2022-01-01,male,11419,24.1,both,overall,overall,1961.2,13325,10234.0
+W.P. Kuala Lumpur,2024-01-01,female,8885,19.5,both,overall,overall,2067.5,13985,10802.0
+W.P. Kuala Lumpur,2024-01-01,male,10413,21.3,both,overall,overall,2067.5,13985,10802.0
+W.P. Labuan,2019-01-01,female,469,18.7,both,overall,overall,99.3,8319,6726.0
+W.P. Labuan,2019-01-01,male,625,24.3,both,overall,overall,99.3,8319,6726.0
+W.P. Labuan,2020-01-01,female,399,15.9,both,overall,overall,95.1,7333,6126.0
+W.P. Labuan,2020-01-01,male,531,20.9,both,overall,overall,95.1,7333,6126.0
+W.P. Labuan,2022-01-01,female,548,20.8,both,overall,overall,96.9,8250,6904.0
+W.P. Labuan,2022-01-01,male,673,23.4,both,overall,overall,96.9,8250,6904.0
+W.P. Labuan,2024-01-01,female,404,15.0,both,overall,overall,100.8,8555,7383.0
+W.P. Labuan,2024-01-01,male,499,17.0,both,overall,overall,100.8,8555,7383.0
+W.P. Putrajaya,2019-01-01,female,397,12.9,both,overall,overall,103.7,12840,9983.0
+W.P. Putrajaya,2019-01-01,male,448,16.6,both,overall,overall,103.7,12840,9983.0
+W.P. Putrajaya,2020-01-01,female,481,14.8,both,overall,overall,109.2,12322,9743.0
+W.P. Putrajaya,2020-01-01,male,501,17.9,both,overall,overall,109.2,12322,9743.0
+W.P. Putrajaya,2022-01-01,female,543,15.7,both,overall,overall,117.0,13473,10056.0
+W.P. Putrajaya,2022-01-01,male,547,16.9,both,overall,overall,117.0,13473,10056.0
+W.P. Putrajaya,2024-01-01,female,460,13.0,both,overall,overall,120.3,13846,10769.0
+W.P. Putrajaya,2024-01-01,male,509,,both,overall,overall,120.3,13846,10769.0
