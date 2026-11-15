@@ -70,7 +70,7 @@ if page == "Objective 1: Population & Income":
     fig1 = px.scatter(
         year_df, x="population", y="income_mean", text="state", size="population", size_max=45,
         color="income_mean", title=f"Population vs Mean Household Income ({selected_year})",
-        labels={"population": "Population (thousand)", "income_mean": "Mean household income (RM)", "state": "State"}
+        labels={"population": "Population (thousand)", "income_mean": "Mean household income (RM)", "state": "State"},
         color_continuous_scale="Viridis"
     )
     fig1.update_traces(textposition="top center",  textfont=dict(
