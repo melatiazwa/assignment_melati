@@ -172,13 +172,17 @@ else:
     c3.metric("Income-rate correlation", f"{correlation:.2f}")
 
     fig1 = px.scatter(
-        year_df, x="income_mean", y="marriage_per_1000", text="state", size="population",
+        year_df, x="income_mean", y="marriage_per_1000", text="state", size="population", size_max=45,
         color="marriages", title=f"Mean Household Income vs Marriage Rate ({selected_year})",
         labels={"income_mean": "Mean household income (RM)",
                 "marriage_per_1000": "Marriages per 1,000 population",
-                "population": "Population (thousand)", "marriages": "Number of marriages", "state": "State"}
+                "population": "Population (thousand)", "marriages": "Number of marriages", "state": "State"},
+        color_continuous_scale="Plasma",
     )
-    fig1.update_traces(textposition="top center")
+    fig1.update_traces(textposition="top center", textfont=dict(
+        size=12,
+        color="black")
+            )
     st.plotly_chart(fig1, use_container_width=True)
 
     compare = year_df.sort_values("income_mean", ascending=False)
