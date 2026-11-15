@@ -75,7 +75,7 @@ if page == "Objective 1: Population & Income":
     )
     fig1.update_traces(textposition="top center",  textfont=dict(
         size=12,
-        color="black")
+        color="white")
     )
     st.plotly_chart(fig1, use_container_width=True)
 
@@ -126,7 +126,7 @@ elif page == "Objective 2: Population & Marriage":
     )
     fig1.update_traces(textposition="top center",  textfont=dict(
         size=12,
-        color="black")
+        color="white")
         )
     st.plotly_chart(fig1, use_container_width=True)
 
@@ -181,7 +181,7 @@ else:
     )
     fig1.update_traces(textposition="top center", textfont=dict(
         size=12,
-        color="black")
+        color="white")
             )
     st.plotly_chart(fig1, use_container_width=True)
 
