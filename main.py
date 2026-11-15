@@ -68,16 +68,20 @@ if page == "Objective 1: Population & Income":
     c3.metric("Population-income correlation", f"{correlation:.2f}")
 
     fig1 = px.scatter(
-        year_df, x="population", y="income_mean", text="state", size="population",
+        year_df, x="population", y="income_mean", text="state", size="population", size_max=45,
         color="income_mean", title=f"Population vs Mean Household Income ({selected_year})",
         labels={"population": "Population (thousand)", "income_mean": "Mean household income (RM)", "state": "State"}
+        color_continuous_scale="Viridis"
     )
-    fig1.update_traces(textposition="top center")
+    fig1.update_traces(textposition="top center",  textfont=dict(
+        size=12,
+        color="black")
+    )
     st.plotly_chart(fig1, use_container_width=True)
 
     sorted_income = year_df.sort_values("income_mean", ascending=True)
     fig2 = px.bar(
-        sorted_income, x="income_mean", y="state", orientation="h", color="income_mean",
+        sorted_income, x="income_mean", y="state", orientation="h", color="income_mean", color_continuous_scale="Plasma",
         title=f"Mean Household Income by State ({selected_year})",
         labels={"income_mean": "Mean household income (RM)", "state": "State"}
     )
