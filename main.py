@@ -118,17 +118,21 @@ elif page == "Objective 2: Population & Marriage":
     c3.metric("Population-marriage correlation", f"{correlation:.2f}")
 
     fig1 = px.scatter(
-        year_df, x="population", y="marriages", text="state", size="marriages",
+        year_df, x="population", y="marriages", text="state", size="marriages", size_max=45,
         color="marriage_per_1000", title=f"Population vs Number of Marriages ({selected_year})",
         labels={"population": "Population (thousand)", "marriages": "Number of marriages",
-                "marriage_per_1000": "Marriages per 1,000", "state": "State"}
+                "marriage_per_1000": "Marriages per 1,000", "state": "State"},
+        color_continuous_scale="Viridis"
     )
-    fig1.update_traces(textposition="top center")
+    fig1.update_traces(textposition="top center",  textfont=dict(
+        size=12,
+        color="black")
+        )
     st.plotly_chart(fig1, use_container_width=True)
 
     sorted_rate = year_df.sort_values("marriage_per_1000", ascending=True)
     fig2 = px.bar(
-        sorted_rate, x="marriage_per_1000", y="state", orientation="h", color="marriage_per_1000",
+        sorted_rate, x="marriage_per_1000", y="state", orientation="h", color="marriage_per_1000", color_continuous_scale="Plasma",
         title=f"Marriage Rate by State ({selected_year})",
         labels={"marriage_per_1000": "Marriages per 1,000 population", "state": "State"}
     )
@@ -179,7 +183,7 @@ else:
 
     compare = year_df.sort_values("income_mean", ascending=False)
     fig2 = px.bar(
-        compare, x="state", y=["income_mean", "income_median"], barmode="group",
+        compare, x="state", y=["income_mean", "income_median"], barmode="group", 
         title=f"Mean and Median Household Income by State ({selected_year})",
         labels={"value": "Household income (RM)", "state": "State", "variable": "Income measure"}
     )
